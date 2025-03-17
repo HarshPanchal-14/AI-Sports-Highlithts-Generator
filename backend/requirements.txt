@@ -1,3 +1,6 @@
+ultralytics==8.0.211
+opencv-python-headless
+streamlit
 Flask==2.3.2
 Flask-Cors==3.0.10
 numpy==1.26.0  # Updated to resolve conflict with tensorflow
@@ -5,4 +8,3 @@ opencv-python==4.7.0.72
 pandas==1.5.3
 librosa==0.10.0
 ffmpeg-python==0.2.0
-ultralytics==8.0.124
