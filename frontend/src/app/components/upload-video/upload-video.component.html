@@ -1,0 +1,12 @@
+<div class="upload-container">
+  <h2>Upload Sports Video</h2>
+  <input type="file" (change)="onFileSelected($event)" accept="video/*">
+  <button (click)="uploadVideo()" [disabled]="!selectedFile">Upload</button>
+  
+  <div *ngIf="uploadStatus" class="status success">
+    {{ uploadStatus }}
+  </div>
+  <div *ngIf="errorMessage" class="status error">
+    {{ errorMessage }}
+  </div>
+</div> 

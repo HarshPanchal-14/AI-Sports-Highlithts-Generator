@@ -1,0 +1,8 @@
+<div class="dashboard-container">
+  <div class="upload-section">
+    <app-upload-video (highlightGenerated)="onHighlightGenerated($event)"></app-upload-video>
+  </div>
+  <div class="highlight-section">
+    <app-highlight-view [highlightUrl]="currentHighlight"></app-highlight-view>
+  </div>
+</div> 
