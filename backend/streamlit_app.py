@@ -62,8 +62,7 @@ if uploaded_file is not None:
             highlight_frames = []
             highlight_start_time = None
         
-        # Add a small delay to simulate real-time processing
-        time.sleep(0.03)  # Adjust this value to control the frame rate
+        time.sleep(0.03)  # Optional: adjust for frame rate
     
     cap.release()
     st.write("Processing complete!")
