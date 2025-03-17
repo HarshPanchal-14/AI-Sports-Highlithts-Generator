@@ -2,7 +2,7 @@ import streamlit as st
 import cv2
 import time
 import os
-from models.yolo.object_detection import ObjectDetector
+
 
 # Cache the model to avoid reloading on every Streamlit rerun
 @st.cache_resource
